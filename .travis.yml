@@ -1,9 +1,10 @@
 language: java
+deploy.clean_up: flase
 deploy:
   provider: openshift
   user: "skrishna.joy@gmail.com"
   password: "Pr3d@t0R$" # can be encrypted
   domain: "krishs"
   app: "vzwallet"
-  skip_cleanup: true
+  #skip_cleanup: true
   #deployment_branch: "vztest"

@@ -2,5 +2,5 @@ language: java
 deploy:
   provider: openshift
   user: "skrishna.joy@gmail.com"
-  password: "Verizon1!" # can be encrypted
+  password: "Pr3d@t0R$" # can be encrypted
   domain: "vztest-krishs"

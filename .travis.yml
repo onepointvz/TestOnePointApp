@@ -4,4 +4,5 @@ deploy:
   user: "skrishna.joy@gmail.com"
   password: "Pr3d@t0R$" # can be encrypted
   domain: "krishs"
+  app: "vzwallet"
   #deployment_branch: "vztest"

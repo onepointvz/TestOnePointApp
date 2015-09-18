@@ -5,5 +5,5 @@ deploy:
   password: "Pr3d@t0R$" # can be encrypted
   domain: "krishs"
   app: "vzwallet"
-  clean_up: false
+  skip_cleanup: true
   #deployment_branch: "vztest"

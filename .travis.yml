@@ -6,6 +6,6 @@ deploy:
   user: "skrishna.joy@gmail.com"
   password: "Pr3d@t0R$" # can be encrypted
   domain: "krishs"
-  app: "vzwallet"
+  app: "/target/vzwallet"
   #skip_cleanup: true
   #deployment_branch: "vztest"

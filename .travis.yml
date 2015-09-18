@@ -1,5 +1,6 @@
 language: java
-deploy.clean_up: flase
+deploy.clean_up: false
+sudo: required
 deploy:
   provider: openshift
   user: "skrishna.joy@gmail.com"

@@ -1,6 +1,5 @@
 language: java
-deploy.clean_up: false
-sudo: required
+script: mvn package -Popenshift
 deploy:
   provider: openshift
   user: "skrishna.joy@gmail.com"

@@ -4,4 +4,4 @@ deploy:
   user: "skrishna.joy@gmail.com"
   password: "Pr3d@t0R$" # can be encrypted
   domain: "krishs"
-  deployment_branch: "vztest"
+  #deployment_branch: "vztest"

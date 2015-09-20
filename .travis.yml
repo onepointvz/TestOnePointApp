@@ -9,4 +9,5 @@ deploy:
   domain: "krishs"
   app: "vzwallet"
   organization: vzwallet
+  space: "development"
   skip_cleanup: true

@@ -6,7 +6,7 @@ deploy:
   username: "vzwallet@gmail.com"
   password: "Verizon!1" 
   api: "https://api.run.pivotal.io"
-  domain: "vzwallet.com"
+  domain: "cfapps.io"
   app: "vzwallet"
   organization: vzwallet
   space: "development"

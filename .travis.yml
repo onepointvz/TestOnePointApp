@@ -3,8 +3,10 @@ script: mvn package -Pvzwallet
 deploy:
   provider: cloudfoundry
   user: "vzwallet@gmail.com"
-  password: "Verizon!1"  # can be encrypted
+  password: "Verizon!1" 
+  api: "https://api.run.pivotal.io"
   domain: "krishs"
   app: "vzwallet"
+  space: "staging"
+  organization: vzwallet
   skip_cleanup: true
-  #deployment_branch: "vztest"

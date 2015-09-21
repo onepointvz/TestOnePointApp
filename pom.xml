@@ -158,9 +158,8 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-war-plugin</artifactId>
+					<version>2.3</version>
 					<configuration>
-						<source>1.5</source>
-						<target>1.5</target>
 			            		<failOnMissingWebXml>false</failOnMissingWebXml>
 			            		<outputDirectory>deployments</outputDirectory>				            
 			            		<warName>ROOT</warName>

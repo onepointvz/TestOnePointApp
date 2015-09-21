@@ -162,6 +162,8 @@
 						<configuration>
 							<source>1.5</source>
 							<target>1.5</target>
+				            <failOnMissingWebXml>false</failOnMissingWebXml>
+				            <outputDirectory>deployments</outputDirectory>				            
 						</configuration>
 					</plugin>
 				</plugins>

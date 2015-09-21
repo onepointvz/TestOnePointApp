@@ -12,5 +12,3 @@ deploy:
   space: "development"
   skip_cleanup: true
   name: "vzwallet"
-  on:
-  branch: "Test1"

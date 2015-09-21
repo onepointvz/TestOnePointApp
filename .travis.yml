@@ -11,6 +11,4 @@ deploy:
   organization: vzwallet
   space: "staging"
   skip_cleanup: true
-application:
   name: "vzwallet"
-

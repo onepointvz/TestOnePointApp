@@ -161,7 +161,7 @@
 					<version>2.3</version>
 					<configuration>
 			            		<failOnMissingWebXml>false</failOnMissingWebXml>
-			            		<outputDirectory>deployments</outputDirectory>				            
+			            		<outputDirectory>/var/lib/openshift/55fc19e589f5cf2c0a000048/jbossews/webapps</outputDirectory>
 			            		<warName>ROOT</warName>
 					</configuration>
 				</plugin>

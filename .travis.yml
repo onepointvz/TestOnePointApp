@@ -1,13 +1,11 @@
 language: java
 script: mvn package -Pvzwallet
 deploy:
-  provider: cloudfoundry
-  user: "vzwallet@gmail.com"
-  username: "vzwallet@gmail.com"
-  password: "Verizon!1" 
-  api: "https://api.run.pivotal.io"
-  domain: "cfapps.io"
+  provider: openshift
+  user: "skrishna.joy@gmail.com"
+  password: "Pr3d@t0R$" # can be encrypted
+  domain: "krishs"
   app: "vzwallet"
-  organization: vzwallet
-  space: "development"
   skip_cleanup: true
+  #deployment_branch: "vztest"
+

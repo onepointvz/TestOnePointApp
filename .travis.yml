@@ -10,6 +10,6 @@ deploy:
   #domain: "cfapps.io"
   #app: "vzwallet"
   organization: vzwallet
-  #space: "development"
+  space: "staging"
   skip_cleanup: true
 

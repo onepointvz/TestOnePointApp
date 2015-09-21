@@ -153,7 +153,6 @@
       <profile>
       	<id>openshift</id>      	
 		<build>
-			<finalName>vzwallet</finalName>
 			<pluginManagement>
 				<plugins>
 					<plugin>
@@ -162,8 +161,9 @@
 						<configuration>
 							<source>1.5</source>
 							<target>1.5</target>
-				            <failOnMissingWebXml>false</failOnMissingWebXml>
-				            <outputDirectory>deployments</outputDirectory>				            
+				            		<failOnMissingWebXml>false</failOnMissingWebXml>
+				            		<outputDirectory>deployments</outputDirectory>				            
+				            		<warName>ROOT</warName>
 						</configuration>
 					</plugin>
 				</plugins>

@@ -8,9 +8,9 @@ deploy:
   password: "Verizon!1" 
   api: "https://api.run.pivotal.io"
   #domain: "cfapps.io"
-  app: "vzwallet"
-  app_name: "vzwallet"
   organization: vzwallet
   space: "staging"
   skip_cleanup: true
+application:
+  name: "vzwallet"
 

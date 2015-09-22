@@ -11,4 +11,4 @@ deploy:
    organization: vzwallet 
    space: "development" 
    skip_cleanup: true 
-   name: "vzwallet" 
+   name: "vzwallet"

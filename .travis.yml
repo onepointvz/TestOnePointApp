@@ -1,14 +1,14 @@
- language: java 
-script: mvn package -Pvzwallet 
-deploy: 
-  edge: true 
-  provider: cloudfoundry 
-  #user: "vzwallet@gmail.com" 
-  username: "vzwallet@gmail.com" 
-  password: "Verizon!1"  
-  api: "https://api.run.pivotal.io" 
-   domain: "cfapps.io" 
-   organization: vzwallet 
-   space: "development" 
-   skip_cleanup: true 
-   name: "vzwallet"
+language: java
+script: mvn package -Pvzwallet
+deploy:
+  edge: true
+  provider: cloudfoundry
+  #user: "vzwallet@gmail.com"
+  username: "vzwallet@gmail.com"
+  password: "Verizon!1" 
+  api: "https://api.run.pivotal.io"
+  domain: "cfapps.io"
+  organization: vzwallet
+  space: "development"
+  skip_cleanup: true
+  name: "vzwallet"
